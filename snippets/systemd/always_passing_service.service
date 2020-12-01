@@ -1,0 +1,12 @@
+# Create a systemd unit that always succeeds
+# source: https://askubuntu.com/questions/1100779/is-there-a-way-to-use-wild-cards-redirection-or-other-shell-syntax-with-systemd
+# reference: http://manpages.ubuntu.com/manpages/bionic/en/man5/systemd.service.5.html#command%20lines
+# Commands are wrapped in a call to a shell because shell operators are not implemented in systemd.
+
+[Unit]
+Description=Example service
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c "/usr/bin/example || /bin/true"
