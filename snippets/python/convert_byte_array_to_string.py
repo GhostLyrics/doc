@@ -1,2 +1,2 @@
 byte_array = b"example"
-byte_array.decode('utf-8')
+string = byte_array.decode('utf-8')
