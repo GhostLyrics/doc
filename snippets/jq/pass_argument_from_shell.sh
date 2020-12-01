@@ -1,3 +1,5 @@
+# source: https://stackoverflow.com/a/40027637/592207
+
 # set shell variable
 bash_example="example"
 
