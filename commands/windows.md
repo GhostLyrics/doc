@@ -5,3 +5,9 @@ Redirect command output to a file
 ```
 PROGRAM.exe | Out-File -FilePath OUTPUT.txt
 ```
+
+Find the file system path of a program
+([stackoverflow.com](https://stackoverflow.com/a/27140194/592207))
+```
+Get-Command PROGRAM
+```
