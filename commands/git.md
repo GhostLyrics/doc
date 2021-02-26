@@ -31,3 +31,10 @@ Search for a string in git commit messages
 ```
 git log --grep "YOUR_STRING"
 ```
+
+Squash all commits into one commit
+([stackoverflow.com](https://stackoverflow.com/a/9254257/592207))
+```
+git rebase --interactive --root
+# choose squash or fixup for each commit except the initial one
+```
