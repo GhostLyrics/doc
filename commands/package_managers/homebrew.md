@@ -27,3 +27,9 @@ brew outdated
 # for casks
 brew outdated --cask
 ```
+
+Find reverse dependencies for a formula
+([gist.github.com](https://gist.github.com/axtl/10228610#gistcomment-3623976))
+```
+brew uses --installed FORMULA
+```
