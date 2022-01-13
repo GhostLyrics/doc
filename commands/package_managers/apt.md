@@ -2,7 +2,7 @@
 
 Fix a missing apt key
 ```
-apt-key adv --keyserver ha.pool.sks-keyservers.net --recv-keys KEY_ID
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys KEY_ID
 ```
 
 Check which package a file belongs to
