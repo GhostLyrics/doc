@@ -10,3 +10,9 @@ Check which package a file belongs to
 ```
 dpkg -S FILENAME_OR_PATH
 ```
+
+Clean package cache
+([blog.packagecloud.io](https://blog.packagecloud.io/apt-cheat-sheet/))
+```
+apt clean
+```
