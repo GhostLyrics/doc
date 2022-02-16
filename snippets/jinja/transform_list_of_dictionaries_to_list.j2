@@ -1,0 +1,13 @@
+{# input:
+- schema_name: a
+- schema_name: b
+- schema_name: c
+ #}
+
+input | map(attribute='schema_name')
+
+{# output:
+- a
+- b
+- c
+ #}
