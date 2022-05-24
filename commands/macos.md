@@ -1,5 +1,10 @@
 # macOS specific items
 
+Rebuild the spotlight index ([techradar.com](https://www.techradar.com/how-to/computing/apple/terminal-101-rebuild-the-spotlight-index-on-the-fly-1305684))
+```
+sudo mdutil -E /
+```
+
 Find 32 bit applications (provided by [@maclemon][], useful for migration to 
 Catalina)
 ```
